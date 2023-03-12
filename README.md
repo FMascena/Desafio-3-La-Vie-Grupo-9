@@ -22,5 +22,5 @@ Projeto realizado no Desafio 3 do Gama Experience #48, onde tínhamos que coloca
 (Em construção)
 
 ## Colaboradores:
-| [<img src="https://avatars.githubusercontent.com/u/119469019?v=4" width=115><br><sub>Felipe Mascena</sub>](https://github.com/FMascena) |  [<img src="https://avatars.githubusercontent.com/u/103616315?v=4" width=115><br><sub>Humberto Luciano</sub>](https://github.com/Humberto08) |  [<img src="-" width=115><br><sub>Diogo Carvalho</sub>](-) |
+| [<img src="https://avatars.githubusercontent.com/u/119469019?v=4" width=115><br><sub>Felipe Mascena</sub>](https://github.com/FMascena) |  [<img src="https://avatars.githubusercontent.com/u/103616315?v=4" width=115><br><sub>Humberto Luciano</sub>](https://github.com/Humberto08) |  [<img src="https://avatars.githubusercontent.com/u/101738853?v=4" width=115><br><sub>Diogo Carvalho</sub>](https://github.com/oakdio) |
 | :---: | :---: | :---: |
