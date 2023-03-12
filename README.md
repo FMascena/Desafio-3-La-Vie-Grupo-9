@@ -8,7 +8,7 @@ Projeto realizado no Desafio 3 do Gama Experience #48, onde tínhamos que coloca
 - Compreender o conceito de API e como utiliza-lo;
 - Construir uma API com boas práticas de Node.js e Express;
 - Criar um Banco de Dados, desde a estrutura DER e tabelas SQL;
-- Conectar e manipular o Banco de Dados com Sequelize
+- Conectar e manipular o Banco de Dados com Sequelize;
 
 ## Ferramentas utilizadas:
 - JavaScript
