@@ -19,10 +19,10 @@ create table pacientes(
 
 create table atendimentos(
     id int not null auto_increment primary key,
-    paciente_id int not null,
-    psicologo_id int not null, 
     data_atendimento date not null,
     observacao text not null,
+    psicologo_id int not null,
+    paciente_id int not null,
     constraint paciente_atendimento foreign key (paciente_id) references pacientes(id),
     constraint psicologo_atendimento foreign key (psicologo_id) references psicologos(id)
 );
