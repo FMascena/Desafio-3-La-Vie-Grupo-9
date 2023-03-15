@@ -3,7 +3,7 @@ create database lavie;
 use lavie;
 
 create table psicologos(
-	id int not null auto_increment primary key,
+    id int not null auto_increment primary key,
     nome varchar(120) not null,
     email varchar(60) not null unique,
     senha varchar(120) not null,
@@ -11,14 +11,14 @@ create table psicologos(
 );
 
 create table pacientes(
-	id int not null auto_increment primary key,
+    id int not null auto_increment primary key,
     nome varchar(120) not null,
     email varchar(60) not null unique,
     idade date not null
 );
 
 create table atendimentos(
-	id int not null auto_increment primary key,
+    id int not null auto_increment primary key,
     paciente_id int not null,
     psicologo_id int not null, 
     data_atendimento date not null,
