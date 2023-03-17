@@ -20,5 +20,11 @@ routes.post("/pacientes", pacientesController.cadastrarPacientes);
 routes.put("/pacientes/:id", idValidator, pacientesController.atualizarPacientes);
 routes.delete("/pacientes/:id", idValidator, pacientesController.deletarPacientes);
 
+routes.get("/psicologos", psicologosController.listarPsicologos); 
+routes.get("/psicologos/:id", idValidator, psicologosController.buscarIdPsicologos);
+routes.post("/psicologos", auth, psicologosController.cadastrarPsicologos);
+routes.put("/psicologos/:id", idValidator, psicologosController.atualizarPsicologos);
+routes.delete("/psicologos/:id", idValidator, psicologosController.deletarPsicologos);
+
 
 module.exports = routes;
