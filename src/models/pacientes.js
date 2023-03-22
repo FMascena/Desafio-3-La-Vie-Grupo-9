@@ -14,6 +14,7 @@ const Pacientes = db.define(
         },
         email: {
             type: DataTypes.STRING,
+            unique: true,
         },
         idade: {
             type: DataTypes.DATE,

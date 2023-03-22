@@ -1,6 +1,6 @@
-const Atendimentos = require("./Atendimentos");
-const Pacientes = require("./Pacientes");
-const Psicologos = require("./Psicologos");
+const Atendimentos = require("./atendimentos");
+const Pacientes = require("./pacientes");
+const Psicologos = require("./psicologos");
 
 Atendimentos.belongsTo(Pacientes, {
   foreignKey: "paciente_id",

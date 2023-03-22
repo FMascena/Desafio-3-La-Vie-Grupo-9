@@ -6,10 +6,11 @@ const loginValidator = require("../validators/psicologos/loginValidator");
 const idValidator = require("../validators/id/idValidator");
 const auth = require("../middlewares/auth");
 const psicologosController = require("../controllers/psicologosController");
-const dashboardsController = require("../controllers/dashboardsController");
+// const dashboardsController = require("../controllers/dashboardsController");
 
 const routes = express.Router();
 
+routes.post("/login", loginValidator, authController.login);
 
 routes.get("/atendimentos", atendimentosController.listarAtendimentos);
 routes.get("/atendimentos/:id", idValidator, atendimentosController.buscarIdAtendimentos);
@@ -27,9 +28,9 @@ routes.post("/psicologos", auth, psicologosController.cadastrarPsicologos);
 routes.put("/psicologos/:id", idValidator, psicologosController.atualizarPsicologos);
 routes.delete("/psicologos/:id", idValidator, psicologosController.deletarPsicologos);
 
-routes.get("/dashboards/psicologos", dashboardsController.listarPsicologos);
-routes.get("/dashboards/pacientes", dashboardsController.listarPacientes);
-routes.get("/dashboards/atendimentos", dashboardsController.listarAtendimentos);
-routes.get("/dashboards/media-atendimentos", dashboardsController.mediaAtendimentos);
+// routes.get("/dashboards/psicologos", dashboardsController.listarPsicologos);
+// routes.get("/dashboards/pacientes", dashboardsController.listarPacientes);
+// routes.get("/dashboards/atendimentos", dashboardsController.listarAtendimentos);
+// routes.get("/dashboards/media-atendimentos", dashboardsController.mediaAtendimentos);
 
 module.exports = routes;

@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 
 const DB_NAME = "lavie";
 const DB_USER = "root";
-const DB_PASS = '';
+const DB_PASS = "mysql";
 const DB_CONFIG = {
   dialect: "mysql",
   host: "localhost",
@@ -10,6 +10,8 @@ const DB_CONFIG = {
 };
 
 let db = {};
+
+console.log("Entrou no Banco de dados");
 
 try {
   db = new Sequelize(DB_NAME, DB_USER, DB_PASS, DB_CONFIG);
