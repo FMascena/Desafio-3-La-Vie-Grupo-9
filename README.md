@@ -15,6 +15,7 @@ Projeto realizado no Desafio 3 do Gama Experience #48, onde tínhamos que coloca
 - Node.js
 - Express.js
 - Insomnia
+- Sequelize
 - MySQL
 - GIT
 - Github
